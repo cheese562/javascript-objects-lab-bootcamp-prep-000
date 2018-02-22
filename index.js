@@ -1,5 +1,3 @@
-var recipes = {};
-
 function updateObjectWithKeyAndValue(object, key, value)
 {
   // returns an object with the orignal key value pairs and the new key value pair
