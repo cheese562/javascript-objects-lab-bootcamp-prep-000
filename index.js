@@ -17,11 +17,14 @@ function deleteFromObjectByKey(object, key)
 {
   // 'deletes `key` from a clone of object and returns the new object (it is non-destructive)'
   
-  return delete object[key]
+
  
 }
 
 function destructivelyDeleteFromObjectByKey(object, key)
 {
   // returns object without the delete key/value pair
+  delete object[key]
+  return object
+  
 }
